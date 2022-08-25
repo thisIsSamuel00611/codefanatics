@@ -1,0 +1,38 @@
+
+.questionEditorPar {
+    border-radius: 16px;
+    .editQuestions {
+        .question {
+            .actionBtns {
+                & > div {
+                    i {
+                        cursor: pointer;
+                        padding: 10px 11px;
+                        &:hover {
+                            background-color: #9efc5f;
+                        }
+                    }
+                }
+            }
+            .mainQuestionPar {
+                .mainQuestion {
+                    height: 70px !important;
+                    padding: 5px 20px !important;
+                    display: flex;
+                    border-radius: 17px;
+                    color: #fff;
+                }
+                .questionLink {
+                    border-radius: 20px !important;
+                }
+            }
+            .opts1 {
+                margin-bottom: 37px;
+                border-radius: 40px !important;
+            }
+            .opts {
+                border-radius: 40px !important;
+            }
+        }
+    }
+}
