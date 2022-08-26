@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DefaultComponent } from './user/default/default.component';
 import { EditQuestionsComponent } from './admin/edit-questions/edit-questions.component';
+import { GameAreaComponent } from './gameplay/game-area/game-area.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DefaultComponent,
-    EditQuestionsComponent
+    EditQuestionsComponent,
+    GameAreaComponent
   ],
   imports: [
     BrowserModule,

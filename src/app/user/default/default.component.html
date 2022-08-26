@@ -1,19 +1,32 @@
+<div id="authMain" #authPass class="authAdmin d-none align-items-center justify-content-center">
+    <div class="d-flex w-50 rounded p-4 m-3 bg-bodyBlue ">
+    <input type="text" id="putPass" class="form-control " placeholder="Password..." style="margin-right: 20px !important;" />
+    <button class="btn btn-outline-success ml-3" style="margin-right: 20px !important;">
+        <i class="fa fa-check"></i>
+    </button>
+    <button class="btn btn-outline-danger ml-3">
+        <i class="fa fa-times"></i>
+    </button>
+</div>
+</div>
 <div class="container d-flex align-items-center justify-content-center">
     <div class="home ">
         <div class="parToUsers">
-            <div class="gameLink d-flex py-3 align-items-center">
+            <div class="gameLink w-100 d-flex py-3 align-items-center">
                 <div class="leftSide">
                     <div class="linkCont">
-                        <a href="#">
+                        <strong>
                             https://quiz.com
-                        </a>
-                        <i class="fa fa-copy"></i>
+                        </strong>
+                        <button class="btn border-0">
+                            <i class="fa fa-copy"></i>
+                        </button>
                     </div>
                 </div>
                 <div class="rightSide d-flex">
-                    <a href="admin.html">
-                        <button class="btn btn-outline-success mr-2">
-                            <img src="assets/images/Vector.png" alt="" class="img-fluid" style="width: 50px">
+                    <a (click)="alertMe()">
+                        <button class="btn btn-outline-success mr-2" style=" margin-right: 20px !important;">
+                            <img src="assets/images/Vector.png" alt="" class="img-fluid" style="height: 23px !important;">
                         </button>
                     </a>
                     <a href="#"><button class="btn btn-outline-success">Play </button></a>

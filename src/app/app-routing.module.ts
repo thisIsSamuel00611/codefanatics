@@ -4,8 +4,9 @@ import { DefaultComponent } from './user/default/default.component';
 import { EditQuestionsComponent } from './admin/edit-questions/edit-questions.component';
 
 const routes: Routes = [
-  { path: '/', component: DefaultComponent },
-  { path: '/admin', component: EditQuestionsComponent }
+  { path: 'default' , component: DefaultComponent },
+  { path: '', redirectTo: 'default', pathMatch: 'full' },
+  { path: 'edit-questions', component: EditQuestionsComponent }
 ];
 
 @NgModule({
